@@ -8,7 +8,7 @@ const RegisterScreen = ({ navigation }) => {
 const [certificateExpiryDate, setCertificateExpiryDate] = useState('');
   const handleRegister = async () => {
     try {
-      const response = await fetch('https://www.alephstaffing.ca/app/register.php', {
+      const response = await fetch('https://www.yourwebsite.ca/app/register.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
