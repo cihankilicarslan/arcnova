@@ -101,7 +101,7 @@ import React, { useEffect, useState } from 'react';
           // 4 saat geri al
           date.setHours(date.getHours() - 4);
           const timestamp = date.toISOString(); // Tarih ve saat bilgisini al
-          const response = await fetch('https://www.alephstaffing.ca/app/save_qr_data.php', {
+          const response = await fetch('https://www.yourwebsite.ca/app/save_qr_data.php', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
