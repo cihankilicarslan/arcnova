@@ -35,7 +35,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('https://www.alephstaffing.ca/app/login.php', {
+      const response = await fetch('https://www.yourwebsite/app/login.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
