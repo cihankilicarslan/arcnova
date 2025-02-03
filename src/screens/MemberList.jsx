@@ -18,7 +18,7 @@ const MemberList = () => {
 
   const fetchMembers = async () => {
     try {
-      const response = await fetch('https://www.alephstaffing.ca/app/get_members.php');
+      const response = await fetch('https://www.yourwebsite.ca/app/get_members.php');
       if (!response.ok) {
         throw new Error(`Failed to fetch members: ${response.status}`);
       }
